@@ -13,6 +13,7 @@ end
 add_entries_to_config(require("config.base"))
 add_entries_to_config(require("config.fonts"))
 add_entries_to_config(require("config.colours"))
+add_entries_to_config(require("config.keybinds"))
 
 return wezterm_config
 
