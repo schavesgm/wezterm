@@ -1,10 +1,12 @@
 -- List all colour schemes
+local kanagawa = require("config.cschemes.kanagawa")
+
 local colour_schemes = {
-    ["Kanagawa"] = require("config.cschemes.kanagawa"),
+    ["Kanagawa"] = kanagawa.scheme,
 }
 
 local colour_scheme = "Kanagawa"
-local colour_table = colour_schemes[colour_scheme].table
+local colour_table = kanagawa.table
 
 return {
     -- Define the colour-schemes
@@ -36,6 +38,10 @@ return {
                 bg_color = colour_table.color_3,
                 fg_color = colour_table.background,
             }
-        }
-    }
+        },
+    },
+
+    -- Define the command palette colour scheme
+    command_palette_fg_color = colour_table.foreground,
+    command_palette_bg_color = colour_table.background,
 }

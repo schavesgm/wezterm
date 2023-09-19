@@ -39,25 +39,27 @@ local colour_table = {
 
 return {
     table = colour_table,
-    foreground = colour_table.foreground,
-    background = colour_table.background,
-    cursor_bg = colour_table.color_15,
-    cursor_fg = colour_table.color_15,
-    cursor_border = colour_table.color_15,
-    selection_fg = colour_table.color_15,
-    selection_bg = colour_table.lighter_background,
-    scrollbar_thumb = colour_table.color_0,
-    split = colour_table.color_0,
-    ansi = {
-        colour_table.color_0, colour_table.color_1,
-        colour_table.color_2, colour_table.color_3,
-        colour_table.color_4, colour_table.color_5,
-        colour_table.color_6, colour_table.color_7,
-    },
-    brights = {
-        colour_table.color_8, colour_table.color_9,
-        colour_table.color_10, colour_table.color_11,
-        colour_table.color_12, colour_table.color_13,
-        colour_table.color_14, colour_table.color_15,
-    },
+    scheme = {
+        foreground = colour_table.foreground,
+        background = colour_table.background,
+        cursor_bg = colour_table.color_15,
+        cursor_fg = colour_table.color_15,
+        cursor_border = colour_table.color_15,
+        selection_fg = colour_table.color_15,
+        selection_bg = colour_table.lighter_background,
+        scrollbar_thumb = colour_table.color_0,
+        split = colour_table.color_0,
+        ansi = {
+            colour_table.color_0, colour_table.color_1,
+            colour_table.color_2, colour_table.color_3,
+            colour_table.color_4, colour_table.color_5,
+            colour_table.color_6, colour_table.color_7,
+        },
+        brights = {
+            colour_table.color_8, colour_table.color_9,
+            colour_table.color_10, colour_table.color_11,
+            colour_table.color_12, colour_table.color_13,
+            colour_table.color_14, colour_table.color_15,
+        },
+    }
 }
