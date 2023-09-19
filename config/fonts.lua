@@ -4,4 +4,5 @@ local default_font = wezterm.font_with_fallback {"Iosevka Nerd Font", "Ubuntu Mo
 return {
     font = default_font,
     font_size = 18.0,
+    command_palette_font_size = 18.0,
 }
