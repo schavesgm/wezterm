@@ -1,5 +1,5 @@
 -- List all colour schemes
-local kanagawa = require("config.cschemes.kanagawa")
+local kanagawa = require("config.schemes.kanagawa")
 
 local colour_schemes = {
     ["Kanagawa"] = kanagawa.scheme,
